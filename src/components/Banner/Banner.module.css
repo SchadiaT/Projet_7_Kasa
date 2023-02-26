@@ -1,0 +1,34 @@
+.banner {
+    position: absolute;
+width: 1240px;
+height: 223px;
+left: 100px;
+top: 171px;
+  }
+  
+  .banner_img {
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .banner_dark {
+    background-color: #000000;
+    border-radius: 25px;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .banniere_txt {
+    color: #ffffff;
+    font-size: 48px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }

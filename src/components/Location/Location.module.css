@@ -1,0 +1,98 @@
+
+.location_container {
+    width: 1240px;
+    height: 643px;
+    left: 100px;
+    top: 128px;
+}
+
+
+.location_info {
+    position: absolute;
+    width: 635px;
+    height: 77px;
+    left: 100px;
+    top: 573px;
+}
+
+.location_title {
+    position: absolute;
+left: 6.94%;
+right: 48.96%;
+top: 55.96%;
+bottom: 39.06%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 142.6%;
+
+/* or 51px */
+display: flex;
+align-items: flex-end;
+
+color: #FF6060;
+}
+
+.location_gps {
+    position: absolute;
+    left: 6.94%;
+    right: 80.83%;
+    top: 60.94%;
+    bottom: 36.52%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+    
+    color: #FF6060;
+}
+
+.location_tags {
+    position: absolute;
+    width: 115px;
+    height: 25px;
+    left: 100px;
+    top: 670px;
+    background: #FF6060;
+    border-radius: 10px;
+}
+
+.location_host {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1273px;
+    top: 567px;
+    
+    background: #C4C4C4;
+}
+
+.location_rating {
+    position: absolute;
+    width: 196px;
+    height: 36px;
+    left: 1144px;
+    top: 652px;
+}
+
+.location_collapse {
+    width: 1240px;
+    height: 101px;
+    left: 100px;
+    top: 670px;    
+}
+
+.location_collapse_content {
+    width: 582px;
+    height: 52px;
+    left: 100px;
+    top: 719px;
+}

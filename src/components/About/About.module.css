@@ -1,0 +1,15 @@
+
+.about_collapses {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about_content {
+    width: 1023px;
+    height: 184px;
+    left: 208px;
+    top: 484px;
+}
