@@ -3,7 +3,8 @@ import housings from "../../data/Data.json"
 import { useParams } from "react-router-dom";
 import Gallery from "../../assets/Gallery/Gallery";
 import Collapse from "../../assets/Collapse/Collapse";
-import classes from "./Location.module.css"
+import classes from "./Location.module.css";
+import RatingStar from "./RatingStar";
 
 export default function Location() {
     const {id} = useParams()
@@ -20,7 +21,7 @@ export default function Location() {
                 <h2 className={classes.location_gps}>{housing.location}</h2>
                 <div className={classes.location_tags}>
                     {housing.tags.map((tag, i) => (
-                        <p key={i} >{tag}</p>
+                        <p key={i} className={classes.location_tag}>{tag}</p>
                     ))}
                 </div>
             </article>
@@ -30,9 +31,9 @@ export default function Location() {
                     <p className={classes.location_host_name}>{housing.host.name}</p>
                     <img src={housing.host.picture} alt='host-cover'className={classes.location_host_img} />
                 </div>
-              
+                <RatingStar
                     scaleValue={housing.rating}
-              
+                />
             </article>
         </header>
 

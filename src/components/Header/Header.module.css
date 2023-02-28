@@ -2,70 +2,53 @@
 
 .header {
     display: flex;
-    position: absolute;
-    width: 1240px;
-    height: 68px;
-    left: 100px;
-    top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
 }
 
 .header_nav {
     display: flex;
-    justify-content: center;   
-    align-items: center; 
-    width: 309px;
-    height: 34px;
-    left: 1031px;
-    top: 57px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_logo {
-    position: absolute;
-    left: 0%;
-    right: 83.04%;
-    top: 0%;
-    bottom: 0%;
+    width: 10rem;
+    padding: 10px;
 }
 
 .header_nav_link_about {
-    position: absolute;
-left: 90.65%;
-right: 0%;
-top: 25%;
-bottom: 25%;
-
+display: flex;
+align-items: flex-end;
+text-align: right;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 142.6%;
+padding: 10px;
 
 /* or 34px */
-display: flex;
-align-items: flex-end;
-text-align: right;
+
 
 color: #FF6060;
 }
 
 .header_nav_link_home {
-    position: absolute;
-    left: 75.08%;
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 142.6%;
-    
-    /* or 34px */
     display: flex;
     align-items: flex-end;
     text-align: right;
     text-decoration-line: underline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px;
+    
+    /* or 34px */
+    
     
     color: #FF6060;
 }

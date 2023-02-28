@@ -1,15 +1,14 @@
 
 .about_collapses {
-    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .about_content {
-    width: 1023px;
-    height: 184px;
-    left: 208px;
-    top: 484px;
+    margin-bottom: 0.5rem;
+    width: 95%;
 }

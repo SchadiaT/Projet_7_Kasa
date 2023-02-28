@@ -1,0 +1,14 @@
+.rating_star {
+    display: flex;
+}
+.rating_star_full {
+    padding-left: 0.3rem;
+    font-size: 25px;
+    color: #FF6060;
+}
+
+.rating_star_grey {
+    padding-left: 0.3rem;
+    font-size: 25px;
+    color: rgb(188, 186, 186)
+}

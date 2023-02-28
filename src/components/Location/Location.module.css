@@ -1,26 +1,23 @@
 
 .location_container {
-    width: 1240px;
-    height: 643px;
-    left: 100px;
-    top: 128px;
+    width: 95%;
+    min-height: 35rem;
+    margin: 1rem auto 7rem auto;
 }
 
+.location_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
 
 .location_info {
-    position: absolute;
-    width: 635px;
-    height: 77px;
-    left: 100px;
-    top: 573px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .location_title {
-    position: absolute;
-left: 6.94%;
-right: 48.96%;
-top: 55.96%;
-bottom: 39.06%;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -36,12 +33,6 @@ color: #FF6060;
 }
 
 .location_gps {
-    position: absolute;
-    left: 6.94%;
-    right: 80.83%;
-    top: 60.94%;
-    bottom: 36.52%;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -56,43 +47,73 @@ color: #FF6060;
 }
 
 .location_tags {
-    position: absolute;
+    display: flex;
     width: 115px;
     height: 25px;
     left: 100px;
     top: 670px;
-    background: #FF6060;
     border-radius: 10px;
+    color: white;
+}
+
+.location_tag {
+    font-size: 15px;
+    color: white;
+    background: #FF6060;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+    margin: 0 1rem 0 0;
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .location_host {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 64px;
     height: 64px;
     left: 1273px;
     top: 567px;
-    
-    background: #C4C4C4;
+}
+
+.location_host_info {
+    display: flex;
+    align-items: center;
+}
+
+.location_host_name {
+    width: 120px;
+    text-align: right;
+    margin-right: 0.5rem;
+    font-size: 18px;
+    color: #FF6060;
+}
+
+.location_host_img {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 3rem;
+    object-fit: cover;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
 }
 
 .location_rating {
-    position: absolute;
-    width: 196px;
-    height: 36px;
-    left: 1144px;
-    top: 652px;
+    margin-top: 1rem;
+    text-align: right;
 }
 
 .location_collapse {
-    width: 1240px;
-    height: 101px;
-    left: 100px;
-    top: 670px;    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .location_collapse_content {
-    width: 582px;
-    height: 52px;
-    left: 100px;
-    top: 719px;
+    margin: 1rem 0;
+    width: 47%;
+}
+
+.location_collapse_content ul {
+    margin: 0;
 }
