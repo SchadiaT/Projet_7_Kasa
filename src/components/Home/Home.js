@@ -13,6 +13,6 @@ export default function Home({id, title, cover}) {
                     </figcaption>
                 </figure>
             </a>
-        </li> 
+            </li> 
     )
 }

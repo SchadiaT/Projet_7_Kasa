@@ -53,7 +53,6 @@ color: #FF6060;
     left: 100px;
     top: 670px;
     border-radius: 10px;
-    color: white;
 }
 
 .location_tag {
@@ -101,6 +100,7 @@ color: #FF6060;
 .location_rating {
     margin-top: 1rem;
     text-align: right;
+    flex-wrap: wrap;
 }
 
 .location_collapse {
@@ -112,8 +112,10 @@ color: #FF6060;
 .location_collapse_content {
     margin: 1rem 0;
     width: 47%;
+    color: #FF6060;
 }
 
 .location_collapse_content ul {
-    margin: 0;
+    display: flex;
+    list-style-type: none;
 }

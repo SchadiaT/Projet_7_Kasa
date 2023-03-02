@@ -35,9 +35,9 @@ export default function Gallery(props) {
 
     return(
         <div className={classes.slideshow}>
-            <div className={classes.slideshow_container} style={{transform: `translateX(-${slideIdx * imgSize()}px)`}}>
+            <div className={classes.slideshow_container} style={{transform: `translateX(-${slideIdx * 100}%)`}}>
                 {props.img.map((picture, i) => 
-                    <img className={classes.slideshow_img} alt='banniere-page-logement' src={picture} key={i} />
+                    <img className={classes.slideshow_container_img} alt='banniere-page-logement' src={picture} key={i} />
                 )}
             </div>
             
