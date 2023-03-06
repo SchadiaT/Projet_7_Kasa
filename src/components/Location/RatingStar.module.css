@@ -12,3 +12,18 @@
     font-size: 25px;
     color: rgb(188, 186, 186)
 }
+
+@media (max-width: 700px) {
+    .rating_star {
+        left: 20px;
+        top: 489px;
+    }
+
+    .rating_star_full{
+        font-size: 15px;
+    }
+
+    .rating_star_grey {
+        font-size: 15px;
+    }
+}

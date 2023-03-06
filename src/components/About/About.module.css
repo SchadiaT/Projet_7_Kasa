@@ -11,3 +11,14 @@
     width: 70%;
     color: #FF6060;
 }
+
+@media (max-width: 700px) {
+    .about_collapse {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .about_content {
+        width: 100%;  
+    }
+}

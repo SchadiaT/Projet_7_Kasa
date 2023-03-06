@@ -32,3 +32,18 @@
     margin-bottom: 1.7rem;
     text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+    .error_page_title {
+        font-size: 96px;
+    }
+
+    .error_page_subtitle {
+        font-size: 18px;
+        margin-top: 5rem;
+    }
+
+    .error_page_link {
+        font-size: 14px;
+    }
+}

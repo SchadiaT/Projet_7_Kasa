@@ -22,3 +22,14 @@
     mix-blend-mode: darken;
     border-radius: 25px;
   }
+
+  @media (max-width: 700px) {
+    .banner {
+      width: 100%;
+    }
+
+    .banner_title {
+      width: 65%;
+      justify-content: start;
+    }
+  }

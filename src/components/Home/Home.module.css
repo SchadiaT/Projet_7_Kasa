@@ -37,3 +37,18 @@
     align-items: flex-end;
     color: #FFFFFF;
 }
+
+@media (max-width: 700px) {
+
+    .home_figure {
+        margin: 1rem 0.5rem;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .home_card {
+       width: 50%; 
+    }
+}
+

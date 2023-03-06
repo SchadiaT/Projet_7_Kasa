@@ -119,3 +119,50 @@ color: #FF6060;
     display: flex;
     list-style-type: none;
 }
+
+@media (max-width: 700px) {
+    .location_container {
+        min-height: 40rem;
+    }
+
+    .location_header {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .location_tags {
+        margin-bottom: 1rem;
+    }
+
+    .location_host {
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .location_host_info {
+        align-items: center;
+    }
+
+    .location_host_name {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .location_rating {
+        padding: 0px;
+    }
+     
+    .location_collapse {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .location_collapse_content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}

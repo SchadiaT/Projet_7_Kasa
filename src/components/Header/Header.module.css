@@ -52,3 +52,17 @@ color: #FF6060;
     
     color: #FF6060;
 }
+
+@media (max-width: 700px) {
+    .header {
+        width: 98%;
+    }
+
+    .header_logo {
+        width: 7rem;
+    }
+
+    .header_nav {
+        padding-left: 0;
+    } 
+}
