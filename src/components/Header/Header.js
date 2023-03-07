@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/LOGO.png";
 import classes from "./Header.module.css"
 
@@ -7,12 +7,14 @@ import classes from "./Header.module.css"
 export default function Header() {
     return(
         <header className={classes.header}>
-        <Link to="/home">
+        <NavLink to="/">
             <img src={logo} alt="kasa-logo" className={classes.header_logo} />
-        </Link>
+        </NavLink>
         <nav className={classes.header_nav}>
-                <Link to="/" className={classes.header_nav_link_home}>Accueil</Link>
-                <Link to="/about" className={classes.header_nav_link_about}>A propos</Link>
+                <NavLink to="/" className= {({ isActive }) => (isActive ? `${classes.header_nav_link_home} ${classes.active_nav_link}` : `${classes.header_nav_link_home}`)}
+                >Accueil</NavLink>
+                <NavLink to="/about" className= {({ isActive }) => (isActive ? `${classes.header_nav_link_about} ${classes.active_nav_link}` : `${classes.header_nav_link_home}`)}
+                >A propos</NavLink>
         </nav>
         </header>
     )

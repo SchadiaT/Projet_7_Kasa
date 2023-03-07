@@ -1,6 +1,6 @@
 import React from "react";
 import housings from "../../data/Data.json"
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import Gallery from "../../assets/Gallery/Gallery";
 import Collapse from "../../assets/Collapse/Collapse";
 import classes from "./Location.module.css";
@@ -8,8 +8,14 @@ import RatingStar from "./RatingStar";
 
 export default function Location() {
     const {id} = useParams()
-    const housing = housings.find(housing => housing.id === id)
-
+    const housing = housings.find(housing => housing.id === id) 
+    if (housing === undefined) {
+        return (
+            <Navigate replace to="*"/>
+        )
+    }
+    
+    console.log(housing)
     return(
         <section key={housing.id} className= {classes.location_container}>
            <Gallery  

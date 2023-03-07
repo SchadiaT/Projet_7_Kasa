@@ -29,28 +29,34 @@ font-weight: 500;
 font-size: 24px;
 line-height: 142.6%;
 padding: 10px;
+text-decoration-line: none;
 
 /* or 34px */
 
 
 color: #FF6060;
+ 
 }
 
 .header_nav_link_home {
     display: flex;
     align-items: flex-end;
     text-align: right;
-    text-decoration-line: underline;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     padding: 10px;
+    text-decoration-line: none;
     
     /* or 34px */
     
     
     color: #FF6060;
+}
+
+.active_nav_link {
+    text-decoration-line: underline;
 }
 
 @media (max-width: 700px) {
@@ -59,10 +65,16 @@ color: #FF6060;
     }
 
     .header_logo {
-        width: 7rem;
+        width: 145px;
+        height: 47px;
     }
 
     .header_nav {
         padding-left: 0;
     } 
+
+   .header_nav_link_about, .header_nav_link_home {
+    font-size: 12px;
+   }
+
 }

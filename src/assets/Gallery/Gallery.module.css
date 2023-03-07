@@ -11,6 +11,7 @@
 .slideshow_container {
     display: flex;
     transition: transform .5s ease;
+    width: 100%;
 }
 
 .slideshow_container_img {
@@ -39,6 +40,7 @@
     font-size: 25px;
     opacity: 0.5;
     cursor: pointer;
+    color: white;
 }
 
 .slideshow_idx {
@@ -55,4 +57,9 @@
     .slideshow_idx {
         display: none;
     }
+
+    .slideshow_container_img {
+        height: 255px;
+    }
+
 }

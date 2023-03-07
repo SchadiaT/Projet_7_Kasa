@@ -29,3 +29,15 @@ text-align: center;
 
 color: #FFFFFF;
 }
+
+@media (max-width: 700px) {
+    .footer_logo {
+        width: 122px;
+        height: 39px;
+        
+    }
+
+    .footer_content {
+        font-size: 12px;
+    }
+}

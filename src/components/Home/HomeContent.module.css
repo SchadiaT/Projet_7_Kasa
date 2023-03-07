@@ -12,14 +12,17 @@
     padding: 1px;    
 }
 
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .content_container {
+        padding-right: 5%;
+        background-color: transparent;
+    }
+}
+
 @media (max-width: 700px) {
     .content_container {
-        width: 100%;
-        padding: 0;
-        margin: 0 0 7rem 0;
-    }
-
-    .content_list {
-        padding: 0;
+        width: 95%;
+        background-color: transparent;
     }
 }
